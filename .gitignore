@@ -1,0 +1,38 @@
+# Python virtual environments
+venv/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+.Python
+*.egg-info/
+dist/
+build/
+
+# ALL environment/secret files
+*.env
+.env
+.env.local
+api.env
+
+# Explicitly exclude files with hardcoded keys
+DiaCare/app.py
+DiaCare/templates/ask.html
+DiabetesRAGProject/scripts/rag_connector.py
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+*.log
+
+# macOS
+.DS_Store
+._*
+
+# Large generated folders
+uploads/
+reports/
+*.zip
